@@ -1,0 +1,37 @@
+.header {
+    margin-top: 15px !important;
+}
+
+.search-input {
+    background-color: #222 !important;
+    color: black !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: inherit !important;
+}
+
+.search-input::placeholder {
+    color: black !important;
+}
+
+.search-input:focus {
+    color: white!important;
+}
+
+
+.search-input:focus {
+    outline: 2px solid #222 !important;
+    /* Removes the browser's default outline */
+    box-shadow: none !important;
+    /* Removes Bootstrap's default focus box-shadow */
+    border-color: inherit !important;
+    /* Optional: Keeps the border color consistent */
+}
+
+.profile-button {
+    background-color: #222!important;
+    outline: 2px solid #222 !important;
+    border-color: none !important;
+    box-shadow: none !important;
+    border: none!important;
+}
