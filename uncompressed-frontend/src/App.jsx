@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes, } from 'react-router-dom'
 import Homepage from './pages/Homepage'
-import CollectionPage from './Pages/CollectionPage'
 
 function App() {
 
@@ -8,7 +7,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage/>}/>
-        <Route path='/collection/:id' element={<CollectionPage/>}/>
       </Routes>
     </BrowserRouter>
   )
